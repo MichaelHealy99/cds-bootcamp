@@ -41,7 +41,7 @@ class PlacesTrainingConfig:
     precision: int = 32
     batch_size: int = 256
     max_epochs: int = 60
-    gpus: int = 1
+    gpus: int = 2
 
 
 class PlacesModel(pytorch_lightning.LightningModule):
